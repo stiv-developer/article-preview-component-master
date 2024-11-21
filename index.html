@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Article preview compoent master</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section class="section">
+    <div class="container">
+      <div class="card">
+        <div class="card-header">
+          <img src="images/drawers.jpg" alt="">
+        </div>
+        <div class="card-body">
+          <h2>Shift the overall look and feel by adding these wonderful touches to furniture in your home</h2>
+          <p>Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I've
+            got some simple tips to help you make any room feel complete.</p>
+          <div class="card-body-content">
+            <div class="group first">
+              <div class="group-child first">
+                <img class="img-avatar" src="images/avatar-michelle.jpg" alt="">
+                <div class="group-info">
+                  <span class="name">Michelle Appletoon</span>
+                  <span class="date">28 Jun 2020</span>
+                </div>
+              </div>
+              <div class="group-child links second">
+                <div id="bg-img" onclick="myFunction()" class="bg-img">
+                  <img id="icon-img"  class="img-icon-share" src="images/icon-share.svg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="group second" id="links2">
+              <div class="group-child first">
+                <ul>
+                  <li>SHARE</li>
+                  <li><img src="images/icon-facebook.svg" alt=""></li>
+                  <li><img src="images/icon-twitter.svg" alt=""></li>
+                  <li><img src="images/icon-pinterest.svg" alt=""></li>
+                </ul>
+              </div>
+              <div onclick="myFunction()"  class="group-child second">
+                <img class="img-icon-share" src="images/icon-share.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
